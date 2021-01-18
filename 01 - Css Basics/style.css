@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.wrap {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+
+.header {
+    background-color: #2e354f;
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ef5839;
+    font-weight: 900;
+}
+
+img {
+    width: 100%;
+}
+
+.section-1 p {
+    color: #2e354f;
+}
+
+.bold-text {
+    font-weight: 900;
+}
+
+.link:link,
+.link:visited,
+.link:active {
+    color: #ef5839;
+}
+
+.link:hover,
+.link:focus {
+    color: red;
+}
+
+.section-2 {
+    background-color: #2e354f;
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-right: 15px;
+}
+
+.btn-orange:link,
+.btn-orange:visited,
+.btn-orange:active {
+    background-color: #ef5839;
+    color: white;
+}
+
+.btn-orange:hover,
+.btn-orange:focus {
+    background-color: white;
+    color: #2e354f;
+}
+
+.btn-white:link,
+.btn-white:visited,
+.btn-white:active {
+    background-color: white;
+    color: #2e354f;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #ef5839;
+    color: white;
+}
